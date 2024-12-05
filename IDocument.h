@@ -2,7 +2,8 @@
 #define IDOCUMENT_H
 
 #include <string>
-
+//При вызове виртуальной функции будет выполнена версия из
+// производного класса, если объект фактически является экземпляром этого класса
 class IDocument {
 public:
     virtual ~IDocument() = default;

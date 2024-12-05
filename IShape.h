@@ -2,7 +2,7 @@
 #define ISHAPE_H
 
 #include <string>
-
+//Создание фигуры и ее методов
 class IShape {
 public:
     virtual ~IShape() = default;
