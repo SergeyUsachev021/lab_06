@@ -3,7 +3,7 @@ name: 'C++ CI on macOS'
 on:
   push:
     branches:
-      - main
+      - main423
       - feature/github_actions
 
 jobs:
