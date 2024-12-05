@@ -3,7 +3,7 @@
 
 #include "IShape.h"
 #include <iostream>
-
+//Присвоение цвета фигуре
 class Rectangle : public IShape {
 private:
     std::string color;

@@ -3,7 +3,7 @@
 
 #include "IShape.h"
 #include <string>
-
+//Креструктор диструктор, создание одной из фигур
 class Shape : public IShape {
 protected:
     std::string color;

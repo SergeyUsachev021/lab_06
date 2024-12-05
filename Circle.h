@@ -3,7 +3,7 @@
 
 #include "IShape.h"
 #include <iostream>
-
+//Присвоение цвета фигуре
 class Circle : public IShape {
 private:
     std::string color;
